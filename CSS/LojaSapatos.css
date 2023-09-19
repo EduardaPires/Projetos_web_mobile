@@ -1,0 +1,71 @@
+.produto {
+    width: 16%; 
+    display: inline-block;
+    margin: 15px; 
+    background-color: #A9BA9D; 
+    text-align: center; 
+    padding: 10px; 
+    box-shadow: 5px 5px 10px #888888;
+    height: 10%;
+}
+
+.produto img {
+    width: 80%;
+    height: 80%; 
+}
+
+footer {
+    background-color: #687169;
+    padding: 10px; 
+    height: 125px;
+}
+
+.produto:hover {
+    transform: scale(1.05); 
+}
+
+.nome {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-bottom: 10px;
+    top: 0;
+}
+
+.opcao {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block; 
+    margin-right: 5.5%;
+    border: #A9BA9D 3px solid;
+    padding: 5px;
+    text-align: center;
+}
+
+.opcao2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block; 
+    margin-right: 5.5%;
+    border: #A9BA9D 5px solid;
+    padding: 5px;
+    text-align: center;
+    background-color: #A9BA9D;
+}
+
+.opcao:hover {
+    transform: scale(1.01); 
+    background-color:#A9BA9D ;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    background-color: #abb7ac;
+}

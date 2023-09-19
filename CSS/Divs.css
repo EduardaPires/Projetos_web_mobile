@@ -1,0 +1,13 @@
+.div1 {
+    margin: auto;  
+    background-color: red;
+    padding: 0px;
+    width: 700px;
+}
+
+.div2 {
+    margin: auto;
+    padding: 25px;
+    background-color: green;
+    width: 700px;
+}

@@ -1,0 +1,10 @@
+h1 {
+    background-color: red;
+    border: 2px solid green;
+}
+
+body {
+    background-image: url(../midia/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

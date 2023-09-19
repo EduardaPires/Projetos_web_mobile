@@ -1,0 +1,10 @@
+p {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+}
+
+a {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    text-decoration: none; 
+}
