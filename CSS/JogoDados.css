@@ -1,0 +1,45 @@
+.jogo {
+    border: gray 0.5px dashed;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: red;
+    font-size: 120%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+img {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tela {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px gray solid;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+  }
+
+button {
+    background-color: white;
+}
+
+body {
+    background-image: url("../midia/cassino.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}

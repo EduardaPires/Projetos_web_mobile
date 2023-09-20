@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de dados</title>
+    <link rel="stylesheet" href="../CSS/JogoDados.css">
+</head>
+<body>
+    <div class="tela">
+        <h2> Bem-vindo ao Duda´s Cassino</h2>
+        <h3>  Jogue os dados e teste sua sorte! As regras são simples: </h3>
+        <p>   No primeiro lançamento:                           
+            <ul>
+                <li>Um total de 7 ou 11 resulta em uma vitória imediata.</li>
+                <li>Um total de 2, 3 ou 12 resulta em uma derrota imediata.</li>
+                <li>Se for qualquer outro número, este ficará salvo como o "ponto" e a partida continua.</li>
+            </ul>
+            
+            Após o estabelecimento de um "ponto":
+            <ul>
+                <li>O jogador continua lançando os dados até rolar novamente o mesmo valor do "ponto", o que resulta em uma vitória.</li>
+                <li>Se a soma dos dados der 7 antes de rolar novamente o "ponto", isso resulta em uma derrota.</li>
+            </ul>
+        </p>
+        
+        <div class="jogo">
+            <img id="dado1" src="..\midia\dice1.png" >
+            <img id="dado2" src="..\midia\dice1.png" >
+            <br>
+            TOTAL: <p id="soma"></p>
+            PONTO: <p id="ponto"></p>
+            <h2 id="resultado"></h2>
+            <button id="botao" onclick="resultados"> Lançar dados </button>
+        </div>
+    </div>
+    <script src="../JS/JogoDados.js"> </script>
+</body>
+</html>
