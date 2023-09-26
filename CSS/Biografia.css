@@ -1,23 +1,26 @@
 body {
-    background: linear-gradient(to bottom, rgb(102, 142, 173), rgb(64, 107, 140) 50%, rgb(46, 97, 136));
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 0px;
+    background-image: url("../midia/stars-night.gif");
+    font-family:inherit;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
 }
 
 .main, .main2 {
-    background-color: #ADD8E6;
-    border-radius: 10px;
-    width: 70%;
-    padding: 20px;
-    border-style: solid;
-    border-color: rgb(46, 97, 136);
+    background-color: rgb(37, 34, 54);
+    width: 55%;
+    color: azure;
+    font-size: large;
 }
 
 .main {
     margin-left: 3%;
     margin-right: 3%;
-    margin-top: 3%;
+    margin-top: 11%;
     margin-bottom: 1%;
+    padding-top: 20%;
+    text-align: center;
+    padding: 90px;
 }
 
 .main2 {
@@ -25,6 +28,14 @@ body {
     margin-right: 3%;
     text-align: center;
     top: 0;
+    padding: 90px;
+
+}
+
+h1 {
+    margin-left: 23%;
+    color: azure;
+    font-family: inherit;
 }
 
 source {
@@ -32,17 +43,19 @@ source {
 }
 
 .sidebar {
-    border-radius: 10px;
-    background-color: #9dc5e3;
     right:0;
-    top: 48px;
-    width: 18%;
+    top: 34px;
+    width: 23.5%;
     position: absolute;
-    margin-left: 3%;
-    margin-right: 2%;
+    margin-left: 2%;
+    margin-right: 2.5%;
     padding: 20px;
-    border-style: solid;
-    border-color: rgb(46, 97, 136);
+    background-color:rgb(37, 34, 54);
+    color: azure;
+    margin-top: 12.6%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 40px;
 }
 
 a:hover{
@@ -56,32 +69,42 @@ a:hover{
     width: auto;
 }
 
+a {
+    color: antiquewhite;
+}
+
 img {
     width: 40%;
     padding-left:50px ;
 }
 
-.foto {
-    border-radius: 10px;
-    background-color: #9dc5e3;
-    right:0;
-    top: 27%;
-    position: absolute;
-    margin-left: 3%;
-    margin-right: 2%;
-    padding: 20px;
-    border: 2px solid rgb(46, 97, 136);
-    width: 18%;
-    height: auto;
-    
-    
+img {
+    height: 250px; 
+    width: 250px;
+    object-fit: cover; 
+    border-radius: 50%;
+    position: absolute; 
+    left: 25%;
 }
 
-.foto img {
-    width: 60%;
-    height: 28%;
-   
-    
+.overlay {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+    backdrop-filter: blur(5px);
 }
+
+.linha {
+    border-bottom: 1px solid #dfdfdf; 
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+
 
 
